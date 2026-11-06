@@ -1,0 +1,389 @@
+<!doctype html>
+<!-- INFO1005 Website Design — Module 3.1 completed Maggie Simpson example -->
+<html lang="en" data-bs-theme="light">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Maggie Simpson responsive creative portfolio demonstration">
+  <meta name="author" content="INFO1005 Website Design">
+  <title>Zac He | Creative Portfolio</title>
+
+  <!-- FAVICON — already supplied. Later replace these with your own favicon files. -->
+  <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+  <link rel="manifest" href="img/site.webmanifest">
+
+  <!-- Google Fonts -->
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap" rel="stylesheet">
+
+
+  <!-- Bootstrap Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+
+  <!-- Bootstrap 5.3 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Your CSS comes last so it can style Bootstrap components. -->
+  <link href="css/custom.css" rel="stylesheet">
+</head>
+
+<body>
+
+
+<nav class="navbar navbar-expand-lg fixed-top site-nav" aria-label="Main navigation">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#top" aria-label="Maggie Simpson home">
+      <img src="img/interior-design.png" alt="Maggie Simpson icon" class="brand-icon rounded-circle">
+      <span class="d-none d-sm-inline">Zac He / Home Page</span>
+    </a>
+
+    <button class="navbar-toggler" type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#mainNavbar"
+            aria-controls="mainNavbar"
+            aria-expanded="false"
+            aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="mainNavbar">
+      <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+        <li class="nav-item"><a class="nav-link" href="#top">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#aboutme">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
+        <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contactme">Contact</a></li>
+        <li class="nav-item"><a class="nav-link" href="pdf/zac_resume.pdf" target="_blank">Resume</a></li>
+      </ul>
+
+      
+      <div class="form-check form-switch theme-switch">
+        <input class="form-check-input" type="checkbox" role="switch"
+               id="themeSwitch" aria-label="Toggle dark mode">
+        <label class="form-check-label" for="themeSwitch">Dark</label>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<main id="top">
+
+  
+  <header class="container hero-section">
+    <div class="row align-items-center g-4">
+      <div class="col-12 col-lg-7">
+        <p class="eyebrow">Database Analyse · web design · Networking · Visual Media Design</p>
+        <h1>Zac He</h1>
+        <p class="lead-copy">As a student currently studying in the field of Information and Communication Technology, I have acquired skills in web and database design, and networking structure. Aimed at cultivating the foundational competencies required for a future career in the information technology industry, and the ability to solve real-world problems.</p>
+
+        <div class="hero-actions">
+          <a class="btn btn-brand" href="#portfolio">View portfolio</a>
+          <a class="btn btn-ghost" href="pdf/zac_resume.pdf" target="_blank">Open resume</a>
+        </div>
+      </div>
+
+      <div class="col-12 col-lg-5 text-center">
+        <img src="img/Zac.jpg" class="img-fluid hero-img" alt="Maggie Simpson creative portrait">
+      </div>
+    </div>
+  </header>
+
+  <!-- ABOUT — cards are review from Module 2.2 / 2.3 -->
+  <section class="container section-block" id="aboutme">
+    <div class="section-intro">
+      <p class="eyebrow">Profile snapshot</p>
+      <h2>About Me</h2>
+      <p>My Background and Experience</p>
+    </div>
+
+    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+      <div class="col">
+        <article class="card h-100 feature-card">
+          <img src="img/introduce.jpg" class="card-img-top" alt="Maggie Simpson portfolio about image">
+          <div class="card-body">
+            <h3 class="card-title">Introducing Me</h3>
+            <p class="card-text">I am Zac, currently pursuing a Diploma of Information and Communication Technology at Western Sydney University. I aim to deepen my expertise in Information Technology and devise effective, practical solutions for complex real-world challenges.</p>
+          </div>
+        </article>
+      </div>
+
+      <div class="col">
+        <article class="card h-100 feature-card">
+          <img src="img/skills.png" class="card-img-top" alt="Education portfolio image">
+          <div class="card-body">
+            <h3 class="card-title">Skills</h3>
+            <p class="card-text">Pathway student developing skills in responsive web design, creative process and visual communication.</p>
+            <ul>
+              <li>Design and analyze database structures</li>
+              <li>Html and CSS programming of website</li>
+              <li>Fundamental elements in the field of computer networking (network protocols, address allocation)</li>
+              <li>Solving real-world problems using mathematical methods</li>
+            </ul>
+          </div>
+        </article>
+      </div>
+
+      <div class="col">
+        <article class="card h-100 feature-card">
+          <img src="img/education.jpg" class="card-img-top" alt="Education">
+          <div class="card-body">
+            <h3 class="card-title">Education</h3>
+            <p class="card-text"><strong>2024.2 – 2025.11</strong></p>
+            <p class="card-text">High School Certificate, Australia (2025)</p>
+            <ul>
+              <li>Enterprise Computing</li>
+              <li>Software Engineering</li>
+            </ul>
+            <p class="card-text"><strong>2026.3 – 2026.11</strong></p>
+            <p class="card-text">Western Sydney University (2026)</p>
+            <p class="card-text">Diploma of Information and Communication Technology</p>
+          </div>
+        </article>
+      </div>
+    </div>
+
+  </section>
+
+  
+  <section class="container section-block" id="portfolio">
+    <div class="section-intro">
+      <p class="eyebrow">Portfolio presentation</p>
+      <h2>Responsive lightbox gallery</h2>
+      <p>Projects that can showcase my current capabilities.</p>
+    </div>
+
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-2 g-4 justify-content-center">
+
+      <div class="col">
+        <article class="card h-100 portfolio-card">
+          <img src="img/visual_design.png" class="card-img-top" alt="Illustration project thumbnail">
+          <div class="card-body">
+            <h3 class="card-title">Visual Media Design </h3>
+            <p class="card-text">A series of photos reflect Sydney city and nature.</p>
+            <button type="button" class="btn btn-brand open-lightbox"
+                    data-bs-toggle="modal" data-bs-target="#projectLightbox"
+                    data-project-src="img/visual_design.png"
+                    data-project-title="Visual Media Design"
+                    data-project-description="A photograph moodboard. By harmonizing various visual media techniques—such as color, texture, and shading—it becomes possible to craft UI/UX and data visualization designs that are more effectively centered on problem-solving. This can also serve as a source of inspiration for the rapidly growing AI industry.
+">
+              Open project
+            </button>
+          </div>
+        </article>
+      </div>
+
+      <div class="col">
+        <article class="card h-100 portfolio-card">
+          <img src="img/database_design.jpg" class="card-img-top" alt="Photography project thumbnail">
+          <div class="card-body">
+            <h3 class="card-title">Database Structures Analyse</h3>
+            <p class="card-text">A visual study exploring tone, texture and image sequencing.</p>
+            <button type="button" class="btn btn-brand open-lightbox"
+                    data-bs-toggle="modal" data-bs-target="#projectLightbox"
+                    data-project-src="img/database_design.jpg"
+                    data-project-title="Database Structures Analyse"
+                    data-project-description="A database designed for hospital patient-physician encounters, aimed at efficiently organizing and allocating registration and appointment slots for both doctors and patients.">
+              Open project
+            </button>
+          </div>
+        </article>
+      </div>
+
+      <div class="col">
+        <article class="card h-100 portfolio-card">
+          <img src="img/subnet.jpg" class="card-img-top" alt="Magazine layout project thumbnail">
+          <div class="card-body">
+            <h3 class="card-title">Networking project</h3>
+            <p class="card-text">A specific scheme for assigning IP addresses and subnet masks within a classroom, following methods such as subnetting and binary conversion.</p>
+            <button type="button" class="btn btn-brand open-lightbox"
+                    data-bs-toggle="modal" data-bs-target="#projectLightbox"
+                    data-project-src="img/subnet.jpg"
+                    data-project-title="Networking project"
+                    data-project-description="A specific scheme for assigning IP addresses and subnet masks within a classroom, following methods such as subnetting and binary conversion.">
+              Open project
+            </button>
+          </div>
+        </article>
+      </div>
+
+      <div class="col">
+        <article class="card h-100 portfolio-card">
+          <img src="img/web_design.PNG" class="card-img-top" alt="Interactive web project thumbnail">
+          <div class="card-body">
+            <h3 class="card-title">Website Design and Programming</h3>
+            <p class="card-text">A responsive web concept using a component-based layout.</p>
+            <button type="button" class="btn btn-brand open-lightbox"
+                    data-bs-toggle="modal" data-bs-target="#projectLightbox"
+                    data-project-src="img/web_design.PNG"
+                    data-project-title="Website Design and Programming"
+                    data-project-description="A web concept demonstrating responsive layout, simple interaction and portfolio presentation.">
+              Open project
+            </button>
+          </div>
+        </article>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ONE reusable modal -->
+  <div class="modal fade" id="projectLightbox" tabindex="-1"
+       aria-labelledby="projectLightboxLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-xl">
+      <div class="modal-content project-modal">
+        <div class="modal-header">
+          <h2 class="modal-title" id="projectLightboxLabel">Project title</h2>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <img src="img/portfolio1.jpg" class="img-fluid modal-project-img"
+               id="modalProjectImage" alt="Selected portfolio project">
+          <p id="modalProjectDescription" class="modal-description">Project description.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ACCORDION — review from Module 2.3 -->
+  <section class="container section-block" id="services">
+    <div class="section-intro">
+      <p class="eyebrow">Interactive content</p>
+      <h2>Services accordion</h2>
+      <p>The kinds of projects I am currently able to take on and complete.</p>
+    </div>
+
+    <div class="accordion services-accordion" id="servicesAccordion">
+      <div class="accordion-item">
+        <h3 class="accordion-header">
+          <button class="accordion-button" type="button"
+                  data-bs-toggle="collapse" data-bs-target="#serviceOne"
+                  aria-expanded="true" aria-controls="serviceOne">
+            Database projects
+          </button>
+        </h3>
+        <div id="serviceOne" class="accordion-collapse collapse show" data-bs-parent="#servicesAccordion">
+          <div class="accordion-body">Requirement analysis → modeling → querying; for example, a hospital appointment system.</div>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <h3 class="accordion-header">
+          <button class="accordion-button collapsed" type="button"
+                  data-bs-toggle="collapse" data-bs-target="#serviceTwo"
+                  aria-expanded="false" aria-controls="serviceTwo">
+            Web projects
+          </button>
+        </h3>
+        <div id="serviceTwo" class="accordion-collapse collapse" data-bs-parent="#servicesAccordion">
+          <div class="accordion-body">HTML/CSS/Bootstrap with responsive pages, as an example in this portfolio.</div>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <h3 class="accordion-header">
+          <button class="accordion-button collapsed" type="button"
+                  data-bs-toggle="collapse" data-bs-target="#serviceThree"
+                  aria-expanded="false" aria-controls="serviceThree">
+            Networking tasks
+          </button>
+        </h3>
+        <div id="serviceThree" class="accordion-collapse collapse" data-bs-parent="#servicesAccordion">
+          <div class="accordion-body">Understanding network protocols, IP planning, and subnetting—illustrated with an addressing scheme for a classroom.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT FORM — HTML + basic Bootstrap grid/form classes -->
+  <section class="container section-block" id="contactme">
+    <div class="row g-4 align-items-start">
+      <div class="col-12 col-lg-5">
+        <p class="eyebrow">Contact</p>
+        <h2>Contact Zac</h2>
+        <p class="d-none d-md-block">I am looking to gain experience and insights to support my future career in the IT industry. If you are interested in my background or have any suggestions regarding the content I’ve shared, please feel free to reach out.</p>
+      </div>
+
+      <div class="col-12 col-lg-7">
+        <form class="contact-form">
+          <div class="row g-3">
+            <div class="col-12 col-md-6">
+              <label for="name" class="form-label">Name</label>
+              <input type="text" class="form-control" id="name" placeholder="Your name">
+            </div>
+
+            <div class="col-12 col-md-6">
+              <label for="email" class="form-label">Email</label>
+              <input type="email" class="form-control" id="email" placeholder="name@example.com">
+            </div>
+
+            <div class="col-12">
+              <label for="message" class="form-label">Message</label>
+              <textarea class="form-control" id="message" rows="4" placeholder="Tell me about your project"></textarea>
+            </div>
+
+            <div class="col-12">
+              <button type="button" class="btn btn-brand">Demo button only</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container d-flex flex-column flex-md-row justify-content-between align-items-start gap-3">
+    <p>&copy; Zac He. Student demonstration site for INFO1005 Website Design.</p>
+    <p class="social-links">
+      <a href="https://instagram.com" target="_blank" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+      <a href="https://linkedin.com" target="_blank" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+      <a href="https://behance.net" target="_blank" aria-label="Behance"><i class="bi bi-behance"></i></a>
+    </p>
+  </div>
+</footer>
+
+<!-- Bootstrap powers collapse, modal, accordion and carousel. -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+<script>
+  
+  const themeSwitch = document.querySelector('#themeSwitch');
+  const savedTheme = localStorage.getItem('maggie-theme') || 'light';
+
+  document.documentElement.setAttribute('data-bs-theme', savedTheme);
+
+  if (themeSwitch) {
+    themeSwitch.checked = savedTheme === 'dark';
+
+    themeSwitch.addEventListener('change', function () {
+      const selectedTheme = this.checked ? 'dark' : 'light';
+
+      document.documentElement.setAttribute('data-bs-theme', selectedTheme);
+      localStorage.setItem('maggie-theme', selectedTheme);
+    });
+  }
+
+  
+  const projectButtons = document.querySelectorAll('.open-lightbox');
+  const projectImage = document.querySelector('#modalProjectImage');
+  const projectTitle = document.querySelector('#projectLightboxLabel');
+  const projectDescription = document.querySelector('#modalProjectDescription');
+
+  projectButtons.forEach(function(button) {
+    button.addEventListener('click', function () {
+      projectImage.src = this.dataset.projectSrc;
+      projectImage.alt = this.dataset.projectTitle + ' full image';
+      projectTitle.textContent = this.dataset.projectTitle;
+      projectDescription.textContent = this.dataset.projectDescription;
+    });
+  });
+
+  
+</script>
+
+</body>
+</html>
